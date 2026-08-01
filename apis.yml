@@ -1,7 +1,25 @@
 aid: paz-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paz-ai.png
 name: Paz Ai
-description: Paz Ai is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Paz.ai is an AI commerce platform that helps merchants win visibility and
+  sales across AI shopping channels such as ChatGPT, Google AI Mode, and Perplexity. It
+  runs three autonomous agents — a Monitor agent that benchmarks catalog performance
+  across AI channels, an Optimizer agent that enriches product titles, attributes, and
+  structured data, and a Distributor agent that publishes AI-optimized feeds to agentic
+  commerce endpoints — producing an AI-optimized copy of a product catalog without
+  modifying the live store. It integrates with Shopify, Adobe Commerce, and Salesforce
+  Commerce, plus CSV and a custom API on enterprise plans. Backed by Mayfield.
 url: https://raw.githubusercontent.com/api-evangelist/paz-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- AI
+- Commerce
+- Ecommerce
+- Agentic Commerce
+- Product Feeds
+- AI Search
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/paz-ai-domain-security.yml
 - type: Website
   url: https://paz.ai
+- type: Pricing
+  url: https://paz.ai/pricing
+- type: Blog
+  url: https://paz.ai/blog
+- type: TermsOfService
+  url: https://paz.ai/terms
+- type: PrivacyPolicy
+  url: https://paz.ai/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
