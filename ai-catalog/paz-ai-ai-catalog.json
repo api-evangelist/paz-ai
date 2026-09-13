@@ -1,0 +1,85 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "identifier": "paz.ai",
+    "displayName": "Paz.ai",
+    "trustManifest": {
+      "identity": "https://www.paz.ai/",
+      "identityType": "https"
+    }
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:paz.ai:api:public",
+      "displayName": "Paz.ai Public API",
+      "description": "Authenticated REST operations for catalog, AI shopping visibility, organization, and optimization workflows.",
+      "type": "application/vnd.oai.openapi+json",
+      "mediaType": "application/vnd.oai.openapi+json",
+      "url": "https://www.paz.ai/openapi.json",
+      "publisher": {
+        "identifier": "paz.ai",
+        "displayName": "Paz.ai",
+        "trustManifest": {
+          "identity": "https://www.paz.ai/",
+          "identityType": "https"
+        }
+      },
+      "trustManifest": {
+        "identity": "https://www.paz.ai/",
+        "identityType": "https"
+      },
+      "representativeQueries": [
+        "List AI shopping visibility results for my organization",
+        "Read the AI-readiness score for a catalog product"
+      ]
+    },
+    {
+      "identifier": "urn:air:paz.ai:mcp:public-api",
+      "displayName": "Paz.ai Public API MCP server",
+      "description": "Streamable HTTP MCP tools for authorized Paz.ai monitoring, catalog, organization, and optimization workflows.",
+      "type": "application/mcp-server-card+json",
+      "mediaType": "application/mcp-server-card+json",
+      "url": "https://www.paz.ai/.well-known/mcp/server-card.json",
+      "publisher": {
+        "identifier": "paz.ai",
+        "displayName": "Paz.ai",
+        "trustManifest": {
+          "identity": "https://www.paz.ai/",
+          "identityType": "https"
+        }
+      },
+      "trustManifest": {
+        "identity": "https://www.paz.ai/",
+        "identityType": "https"
+      },
+      "representativeQueries": [
+        "Show which configured queries surfaced my products",
+        "List products and resolved attributes in my Paz.ai catalog"
+      ]
+    },
+    {
+      "identifier": "urn:air:paz.ai:skill:public-api",
+      "displayName": "Paz.ai API skill",
+      "description": "Procedural guidance for using the Paz.ai Public API and MCP server safely with scoped organization credentials.",
+      "type": "text/markdown",
+      "mediaType": "text/markdown",
+      "url": "https://www.paz.ai/skills/paz-api/SKILL.md",
+      "publisher": {
+        "identifier": "paz.ai",
+        "displayName": "Paz.ai",
+        "trustManifest": {
+          "identity": "https://www.paz.ai/",
+          "identityType": "https"
+        }
+      },
+      "trustManifest": {
+        "identity": "https://www.paz.ai/",
+        "identityType": "https"
+      },
+      "representativeQueries": [
+        "How should an agent authenticate to Paz.ai?",
+        "Which Paz.ai API operation should I use for visibility results?"
+      ]
+    }
+  ]
+}
