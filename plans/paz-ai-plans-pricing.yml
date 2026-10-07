@@ -1,0 +1,35 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.paz.ai/pricing
+sources:
+- https://www.paz.ai/pricing
+- https://paz.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: flat-platform
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Managed service billed monthly, no annual commitment; Enterprise is a custom quote after discovery.
+plan_count: 2
+currency: USD
+plans:
+- name: Managed service
+  price_text: $ 2,500 USD / month
+  price: 2500
+  currency: USD
+  period: month
+  unit: one brand and one primary storefront
+  included_quota: A dedicated Paz expert as your point of contact; Ecommerce SEO, AI visibility, Product
+    content, Product feeds and ChatGPT Ads as relevant to agreed scope
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Multiple brands or storefronts, custom integrations, bespoke permissions and governance,
+    regulated review paths
